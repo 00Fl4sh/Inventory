@@ -1,0 +1,43 @@
+/* ProductForm.css */
+.product-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.product-select {
+  margin-bottom: 20px;
+}
+
+.product-detail {
+  
+  margin-top: 20px;
+}
+
+.product-detail h4 {
+  margin-bottom: 10px;
+}
+
+.product-inputs {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  
+}
+
+.product-inputs div {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-inputs label {
+  margin-bottom: 5px;
+}
+
+.product-inputs input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
